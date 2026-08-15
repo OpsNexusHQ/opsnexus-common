@@ -1,7 +1,7 @@
 # OpsNexus Common (`opsnexus-common`)
 
 [![Release](https://img.shields.io/badge/release-v0.5.0-blue.svg)](https://github.com/OpsNexusHQ/opsnexus-common/releases/tag/v0.5.0)
-[![Go Version](https://img.shields.io/badge/go-1.25+-00ADD8.svg)](https://golang.org)
+[![Go Version](https://img.shields.io/badge/go-1.22+-00ADD8.svg)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Shared Go data models, structures, and protocol contracts used across the **OpsNexus** ecosystem (shared between `opsnexus-agent` and `opsnexus-backend`).
