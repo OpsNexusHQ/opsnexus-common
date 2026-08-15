@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: OpsNexusHQ/opsnexus-docs
-          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          ref: b54bde59f0e4c581e1362c520882730040e90b1d # immutable opsnexus-docs main manifest baseline
           path: ci-source/opsnexus-docs-base
           persist-credentials: false
 
@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: OpsNexusHQ/opsnexus-docs
-          ref: faf783529ea6f45a4d156e7b98309eb1bd506e49
+          ref: b54bde59f0e4c581e1362c520882730040e90b1d # immutable opsnexus-docs compatibility tooling
           path: ci-source/opsnexus-docs-tools
           persist-credentials: false
 
@@ -87,7 +87,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           repository: OpsNexusHQ/opsnexus-docs
-          ref: 334eaddfad823619aa86d2996e8467da8f7a89f9
+          ref: b54bde59f0e4c581e1362c520882730040e90b1d # immutable opsnexus-docs compatibility tooling
           path: ci-source/opsnexus-docs-tools
           persist-credentials: false
 
